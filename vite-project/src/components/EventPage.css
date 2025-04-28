@@ -35,6 +35,21 @@ p{
     padding-bottom: 50px;
 }
 .event-info p{
-    font-size: 30px;
+    font-size: 25px;
     color: yellow;
+}
+
+button{
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #11fc11aa;
+    width: 200px;
+    font-weight: bolder;
+    margin-bottom: 40px;
+    display: block;
+}
+button:hover{
+    box-shadow: 6px 6px rgb(12, 140, 5);
 }

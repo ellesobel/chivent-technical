@@ -4,7 +4,6 @@
 img{
     width: 80%;
     max-width: 700px;
-
 }
 
 hr{
@@ -20,7 +19,4 @@ hr{
 
 .event-info{
     font-size: 12px;
-}
-.total{
-    padding: 20px;
 }
