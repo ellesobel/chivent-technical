@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    
+}
+
+img {
+    width: 80%;
+}
+
+header{
+    background-color: white;
+    position: fixed;
+    width: 90%;
+    padding-left: 5%;
+    padding-right: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    top:0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    z-index: 100;
+
+}
+nav{
+    display: flex;
+    gap: 30px;
+}
+
+nav a{
+    color: rgb(248, 4, 126);
+}
+
+nav a:hover, nav a:visited:hover{
+    color: rgb(248, 135, 197);
+}
+
+nav a:visited{
+    color: rgb(210, 0, 126);
+}

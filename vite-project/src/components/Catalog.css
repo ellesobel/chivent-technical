@@ -1,0 +1,23 @@
+*{
+}
+
+img{
+    width: 80%;
+    max-width: 700px;
+
+}
+
+hr{
+    margin: 30px 0px;
+}
+
+.catalog-page{
+    position: relative;
+    top: 20px;
+    padding: 0% 10%;
+    margin-bottom: 50px;
+}
+
+.event-info{
+    font-size: 12px;
+}
