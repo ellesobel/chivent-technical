@@ -17,7 +17,10 @@ h2{
     font-size: 50px;
     color: rgb(248, 4, 126);
 }
-
+#add{
+    position: relative;
+    left: 10px;
+}
 p{
     font-size: 20px;
 }
