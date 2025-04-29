@@ -25,14 +25,14 @@ function App() {
             <header>
                 <h1>Chivent</h1>
                 <nav>
-                    <Link to="/">📰Event List</Link>
-                    <Link to="/cart">🛒My Cart</Link>
+                    <Link to="/chivent-technical/">📰Event List</Link>
+                    <Link to="/chivent-technical/cart">🛒My Cart</Link>
                 </nav>
             </header>
             <Routes>
-                <Route path="/" element={<Catalog addToCart={addToCart} cart={cart} />} />
+                <Route path="/chivent-technical/" element={<Catalog addToCart={addToCart} cart={cart} />} />
                 <Route path="/events/:id" element={<EventPage addToCart={addToCart} cart={cart} />} />
-                <Route path="/cart" element={<Cart cart={cart} removeFromCart={removeFromCart} />} />
+                <Route path="/chivent-technical/cart" element={<Cart cart={cart} removeFromCart={removeFromCart} />} />
             </Routes>
         </Router>
     );

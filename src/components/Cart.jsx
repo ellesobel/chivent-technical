@@ -10,7 +10,7 @@ function Cart({ cart, removeFromCart }) {
         return (
             <div className="empty-cart">
                 <h2>Your Cart is Empty!</h2>
-                <button id="empty-button"><Link to="/">Click Here to Return to Event List</Link></button>
+                <button id="empty-button"><Link to="/chivent-technical/">Click Here to Return to Event List</Link></button>
             </div>
         );
 
