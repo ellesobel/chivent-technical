@@ -7,7 +7,8 @@ const events = [
     price: 65.00,
     location: "Wrigley Field, Chicago, IL",
     date: "2025-06-09",
-    time: "8:00 PM"
+    startTime: "8:00 PM",
+    endTime: "10:30 PM"
 
   },
   {
@@ -18,7 +19,8 @@ const events = [
     price: 127.00,
     location: "Soldier Field, Chicago, IL",
     date: "2025-05-08",
-    time: "7:30 PM"
+    startTime: "7:30 PM",
+    endTime: "10:00 PM"
 
   },
   {
@@ -29,7 +31,8 @@ const events = [
     price: 50.00,
     location: "Wrigley Field, Chicago, IL",
     date: "2025-05-12",
-    time: "9:00 PM"
+    startTime: "9:00 PM",
+    endTime: "11:30 PM"
 
   },
   {
@@ -40,7 +43,8 @@ const events = [
     price: 25.00,
     location: "Millenium Park, Chicago, IL",
     date: "2025-10-25",
-    time: "7:00 PM"
+    startTime: "7:00 PM",
+    endTime: "8:30 PM"
   }
 ];
 

@@ -29,7 +29,7 @@ function Cart({ cart, removeFromCart }) {
                 </div>
             )}
             <h3 id="total">Total: ${cartItems.reduce((sum, event) => sum + event.price, 0).toFixed(2)}</h3>
-
+            <button id="checkout"><h3> Checkout Now</h3></button>
         </div>
     );
 }

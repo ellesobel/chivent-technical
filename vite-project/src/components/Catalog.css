@@ -1,5 +1,4 @@
-*{
-}
+
 
 img{
     width: 80%;
@@ -14,9 +13,28 @@ hr{
     position: relative;
     top: 20px;
     padding: 0% 10%;
-    margin-bottom: 50px;
+
 }
 
-.event-info{
-    font-size: 12px;
+#title{
+    position: relative;
+    padding: 90px 0px 0px 70px;
+    font-size: 75px;
+
+}
+
+.catalog-add {
+    margin: auto;
+    padding: 15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #08a908;
+    width: 200px;
+    font-weight: bolder;
+    display: block;
+    z-index: 1000;
+    position: relative;
+    margin-top: 40px;
+    margin-bottom: -40px;
 }

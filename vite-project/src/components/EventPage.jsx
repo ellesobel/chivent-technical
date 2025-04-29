@@ -11,11 +11,11 @@ function EventPage({addToCart, cart}) {
     return (
         <div className="event-page">
             
+            <h2 id="event-title">{event.title}</h2>
             <img src={event.image} alt={event.title} />
-            <h2>{event.title}</h2>
-            <button onClick={() => !isInCart && addToCart(event.id)} disabled={isInCart}>
+            <button className="btn" onClick={() => !isInCart && addToCart(event.id)} disabled={isInCart}>
                 {isInCart ? 'In Cart' : 'Add to Cart'}</button>
-            <p>{event.description}</p>
+            <p className="descrip">{event.description}</p>
             <div className="event-info">
                 <div className="price-and-place">
                     <p> ${event.price} </p>
@@ -23,9 +23,10 @@ function EventPage({addToCart, cart}) {
                 </div>
                 <div className="date-and-time">
                     <p>{event.date}</p>
-                    <p>{event.time}</p>
+                    <p>{event.startTime} - {event.endTime}</p>
                 </div>
             </div>
+            <footer></footer>
         </div>
     );
 }
